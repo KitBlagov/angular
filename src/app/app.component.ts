@@ -7,6 +7,9 @@ import {Component, Input} from '@angular/core';
 })
 export class AppComponent {
   @Input() name: string = 'Nikita';
+
+  colspan: number = 2;
+
 }
 
 
