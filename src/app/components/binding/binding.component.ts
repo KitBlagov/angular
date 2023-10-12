@@ -26,3 +26,4 @@ export class BindingComponent {
     this.phone = Math.round(Math.random() * 1000) + '';
   }
 }
+
