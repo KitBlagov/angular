@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { InterpolationComponent } from './components/interpolation/interpolation.component';
 import { BindingComponent } from './components/binding/binding.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { HighlightDirective } from './components/directives/my-directives/highlight.directive';
+
 
 
 
@@ -16,6 +18,8 @@ import { DirectivesComponent } from './components/directives/directives.componen
     InterpolationComponent,
     BindingComponent,
     DirectivesComponent,
+    HighlightDirective,
+
 
   ],
   imports: [
